@@ -25,6 +25,67 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+body {
+	background-color: #00ff00; /* green */
+	color: #000000; /* black */
+}
+
+.sign-in {
+	background-color: #ffffff; /* white */
+	font-family: Arial, sans-serif;
+	padding: 20px;
+}
+
+.container {
+	max-width: 400px;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.form-group input:focus {
+	outline: none;
+	border: 1px solid #007bff;
+	transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.form-group button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.form-group button:hover {
+	background-color: #0056b3;
+}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
